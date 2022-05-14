@@ -29,15 +29,15 @@ a {
 }
 
 .media-anim {
-  @apply transform hover:scale-110 duration-200;
+  @apply transform hover:scale-110;
 }
 
 .media-hover {
-  @apply transform hover:scale-105 duration-200 hover:bg-transparent/5 rounded-2xl;
+  @apply hover:bg-transparent/5 rounded-2xl;
 }
 
 .media-select {
-  @apply transform scale-105 bg-gray-900 text-white rounded-2xl;
+  @apply bg-gray-900 text-white rounded-2xl;
 }
 
 .border-t-1 {
