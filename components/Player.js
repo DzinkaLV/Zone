@@ -9,8 +9,8 @@ function Player() {
       <div className='lg:flex items-center hidden lg:col-span-2 bg-slate-100 rounded-tr-2xl p-4 mr-20 h-20'>
         <BsSoundwave className='w-8 h-8'/>
         <div className='grid justify-center w-full row-span-2'>
-        <span className='text-sm text-black'>Curently playing..</span>
-        <span className='text-sm text-black'>Mountain</span>
+        <span className='text-sm text-black font-medium'>Curently playing..</span>
+        <span className='text-sm text-black font-semibold'>Mountain</span>
         </div>
       </div>
       {/* Mobile and Tablet */}
