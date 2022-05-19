@@ -17,14 +17,11 @@ export default function Home() {
       {/* Navigation */}
       <Navigation/>
 
-      {/* Main Player */}
+      {/* Header */}
       <Header/>
 
-      {/* Footer */}
-      <Footer/>
-
-      {/* Mobile Player */}
-      <Player/>
+      <Player />
+    
     </div>
   )
 }
