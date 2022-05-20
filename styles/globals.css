@@ -80,3 +80,8 @@ a {
   padding: auto;
   border-width: 0px;
 }
+
+.li {
+  margin: 0;
+  padding: auto;
+}

@@ -45,12 +45,12 @@ function Header() {
         <div className='flex w-full justify-between row-span-1 items-center p-4 px-4 bg-gray-800 rounded-xl'>
           <BiPlay className='text-3xl text-white' />
           <span className='text-lg font-medium text-white'>Climbing mount everest.</span>
-          <span className='text-xl font-medium text-white'>4.23</span>
+          <span className='text-xl font-medium text-white'>4:23</span>
         </div>
         <div className='flex w-full justify-between row-span-1 items-center p-4 px-4 list-play'>
           <span className='text-xl font-medium'>2</span>
           <span className='text-lg font-medium'>I lost my journey</span>
-          <span className='text-xl font-medium'>2.10</span>
+          <span className='text-xl font-medium'>2:10</span>
         </div>
       </div>
     </div>

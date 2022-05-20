@@ -43,11 +43,16 @@ function Navigation() {
       <div className='flex justify-end items-center w-full space-x-8'>
       <HiOutlineBell className='w-6 h-6 text-gray-800' />
       {/* Leader - DJ */}
-      <div class="avatar indicator">
+      <div class="avatar indicator dropdown flex justify-center">
         <span class="indicator-item indicator-bottom indicator-center badge"><CgCrown className='w-5 h-5 text-yellow-500'/></span> 
-        <div class="w-14 rounded-full border-2 border-slate-300">
+        <div tabIndex="0" class="w-14 rounded-full border-2 border-slate-300 hover:border-slate-400 cursor-pointer">
           <img src="https://api.lorem.space/image/face?hash=92310" />
         </div>
+        {/* User Settings */}
+        <ul tabindex="0" class="dropdown-content bg-gray-700 menu p-2 shadow rounded-box w-30 text-white -bottom-28">
+        <li className='text-sm'><a href="#" className='hover:bg-gray-600'>Settings</a></li>
+        <li className='text-sm'><a href="#" className='hover:bg-gray-600'>Invite</a></li>
+        </ul>
       </div>
       {/* Lisseners */}
       <div class="avatar indicator">
@@ -61,11 +66,9 @@ function Navigation() {
       <input type="checkbox" id="my-modal-6" class="modal-toggle" />
         <div class="modal modal-bottom sm:modal-middle">
           <div class="modal-box">
-            <h3 class="font-bold text-lg">Congratulations random Interner user!</h3>
-            <p class="py-4">You've been selected for a chance to get one year of subscription to use Wikipedia for free!</p>
-            <div class="modal-action">
-              <label for="my-modal-6" class="btn">Yay!</label>
-            </div>
+            <h3 class="flex justify-center font-bold text-lg">You're special invite link</h3>
+            <p class="py-4">Share this to invite new people.</p>
+            <p class="flex justify-between px-4 items-center w-full pattern-dots pattern-gray-900 pattern-bg-gray-800 pattern-opacity-100 pattern-size-2 rounded-xl outline outline-offset-4 outline-slate-500/25 text-white py-2">http://localhost:3000/<label for="my-modal-6" class="btn flex justify-end text-md">📋Copy</label></p>
           </div>
         </div>
       </div>
