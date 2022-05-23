@@ -17,9 +17,10 @@ export default function Home() {
       {/* Navigation */}
       <Navigation/>
 
-      {/* Header */}
+      {/* Album playlist */}
       <Header/>
 
+      {/* Media */}
       <Player />
     
     </div>
